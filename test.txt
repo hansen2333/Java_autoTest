@@ -6,4 +6,5 @@ branch test01 合并使用.
 
 branch Test02 再次合并。
 
-这是本地main分支。
+
+这是本地main分支,这是branchTest02分支添加的内容。
