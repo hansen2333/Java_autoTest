@@ -1,0 +1,26 @@
+[
+  {
+    "description": "simulate a without parameters Get request",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "this is a without parameters Get request"
+    }
+  },
+  {
+    "description": "this is a parameter with parameters Get request",
+    "request": {
+      "uri": "/get-with-param",
+      "method": "get",
+      "queries": {
+        "name": "hansen",
+        "age": "40"
+      }
+    },
+    "response": {
+      "text": "this is a parameter with parameters Get request"
+    }
+  }
+]

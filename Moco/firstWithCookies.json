@@ -1,0 +1,49 @@
+[
+  {
+    "description": "this a return cookies get request",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "cookies": {
+        "login": "true"
+      },
+      "text": "Congratulations on obtaining cookies success"
+    }
+  },
+  {
+    "description": "this is a cookies request",
+    "request": {
+      "uri": "/get/with/cookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text":"this is a cookie that needs to be carried get request"
+    }
+  },
+  {
+    "description": "this is a cookies request",
+    "request": {
+      "uri": "/post/with/cookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "hansen",
+        "age": "40"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "hansen": "success",
+        "status": "1"
+      }
+    }
+  }
+]
