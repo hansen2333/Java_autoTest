@@ -1,0 +1,25 @@
+[
+  {
+    "description": "redirect",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "redirect my web",
+    "request": {
+      "uri": "/redirect/topath"
+    },
+    "redirectTo": "redirect/new"
+  },
+  {
+    "description": "this is a redirect request",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "response": {
+      "text": "redirect success"
+    }
+  }
+]

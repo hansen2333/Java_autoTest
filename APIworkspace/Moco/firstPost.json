@@ -1,0 +1,26 @@
+[
+  {
+    "description": "simulate a without Post request",
+    "request": {
+      "uri": "/post-demo",
+      "method": "post"
+    },
+    "response": {
+      "text": "this is a without parameter request"
+    }
+  },
+  {
+    "description": "this is a without parameter with parameter Post request",
+    "request": {
+      "uri": "/post-with-param",
+      "method": "post",
+      "forms": {
+        "name": "hansen",
+        "age": "40"
+      }
+    },
+    "response": {
+      "text": "this is a parameter with parameter Post request"
+    }
+  }
+]

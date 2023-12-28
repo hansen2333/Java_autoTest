@@ -1,0 +1,11 @@
+[
+  {
+    "description": "first moco case",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "first moco framework"
+    }
+  }
+]

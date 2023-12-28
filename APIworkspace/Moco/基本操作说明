@@ -1,0 +1,6 @@
+//启动命令
+//jar命令 + 执行moco包 + 协议 + -p 端口号 + -c + 文件名
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c first.json
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c firstWithCookies.json
+
