@@ -1,8 +1,7 @@
 package com.tester.config;
 
+import org.apache.http.client.CookieStore;
 import org.apache.http.impl.client.DefaultHttpClient;
-
-import java.net.CookieStore;
 
 /**
  * 这里的变量对应application的url

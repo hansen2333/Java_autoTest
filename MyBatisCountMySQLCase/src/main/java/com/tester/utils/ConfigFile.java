@@ -14,15 +14,20 @@ public class ConfigFile
     {
         String address = bundle.getString("test.url");
         String uri = "";
-        String testUrl;
+        String testUrl; //最终测试地址
         //这里调用是枚举的参数
         if(name == InterfaceName.GETUSERLIST)
         {
+            //这里是application.properties的接口uri
             uri = bundle.getString("getUserList.uri");
         }
         if(name == InterfaceName.LOGIN)
         {
             uri = bundle.getString("login.uri");
+        }
+        if(name == InterfaceName.UPDATEUSERINFO)
+        {
+            uri = bundle.getString("updateUserInfo.uri");
         }
         if(name == InterfaceName.UPDATEUSERINFO)
         {
